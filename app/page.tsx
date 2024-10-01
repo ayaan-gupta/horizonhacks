@@ -55,7 +55,7 @@ export default function Home() {
       </div>
       <div className="mb-8 lg:mb-32 flex flex-col items-center gap-3">
         <TrustedBy />
-        <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', padding: '20px', gap: '22px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', padding: '20px', gap: '22px' }} className="flex-col lg:flex-row">
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <Calendar size={24} />
         <span style={{ marginLeft: '8px' }}>October 25th – November 1st, 2024</span>
@@ -79,7 +79,7 @@ export default function Home() {
         <FeaturesBento />
       </div>
 
-      <div className="flex justify-center items-start pt-10 top-0 lg:pt-0 lg:items-center w-[175%] h-screen absolute lg:-top-[400px] -z-10">
+      <div className="flex justify-center items-start pt-10 top-0 lg:pt-0 lg:items-center w-[175%] h-screen absolute lg:-top-[400px] -z-10 lg:hidden">
           <Image src="/bg-pattern.svg" width={1000} height={1000} alt="" priority className="w-full lg:w-[90%] block absolute lg:block"/>
       </div>
     </section>
