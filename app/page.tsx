@@ -13,6 +13,7 @@ import FeaturesBento from "@/components/feature-bento";
 import LightBg from "@/components/light-bg";
 import Integrations from "@/components/integrations";
 import { About } from "@/components/last-but-not-least";
+import { Calendar, Globe, Mail } from 'lucide-react';
 import Image from "next/image";
 
 export default function Home() {
@@ -47,15 +48,29 @@ export default function Home() {
         <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
+          href="https://forms.gle/73U41PNJjZJdPgGh6"
         >
           Devpost
         </Link>
       </div>
-      <div className="mb-8 lg:mb-32">
+      <div className="mb-8 lg:mb-32 flex flex-col items-center gap-3">
         <TrustedBy />
+        <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', padding: '20px', gap: '22px' }}>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <Calendar size={24} />
+        <span style={{ marginLeft: '8px' }}>October 25th – November 1st, 2024</span>
       </div>
-
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <Globe size={24} />
+        <span style={{ marginLeft: '8px' }}>Virtual Event</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <Mail size={24} />
+        <span style={{ marginLeft: '8px' }}>contact@horizonhacks.com</span>
+      </div>
+    </div>
+      </div>
+      
       <About />
       <div className="mt-20 flex-col items-center mx-auto">
         <h1 className="text-2xl lg:text-4xl font-semibold flex justify-center items-center mx-auto text-center">
