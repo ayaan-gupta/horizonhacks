@@ -16,7 +16,7 @@ export default function FeaturesBento() {
       <Card className="col-span-12 sm:col-span-4 h-[300px]">
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
-            What if I'm a Beginner?
+            What if I&apos;m a Beginner?
           </p>
           <h4 className="text-white font-medium text-large">
             We will be hosting workshops that allow everyone to learn new skills.
@@ -32,10 +32,10 @@ export default function FeaturesBento() {
       <Card className="col-span-12 sm:col-span-4 h-[300px]">
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
-            What's the topic?
+            What&apos;s the topic?
           </p>
           <h4 className="text-white font-medium text-large">
-            You'll have to wait until launch day for that but if you want a hint, it's environment related ;)
+            You&apos;ll have to wait until launch day for that but if you want a hint, it&apos;s environment related
           </h4>
         </CardHeader>
         <Image
