@@ -41,13 +41,13 @@ export default function Home() {
             radius: "full",
             variant: "shadow",
           })}
-          href={siteConfig.links.docs}
+          href="https://forms.gle/73U41PNJjZJdPgGh6"
         >
           Register
         </Link>
         <Link
           className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href="https://forms.gle/73U41PNJjZJdPgGh6"
+          href="https://horizonhacks-2024.devpost.com/?ref_feature=challenge&ref_medium=discover"
         >
           Devpost
         </Link>
