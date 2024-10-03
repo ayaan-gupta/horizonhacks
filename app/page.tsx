@@ -46,7 +46,6 @@ export default function Home() {
           Register
         </Link>
         <Link
-          isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
           href="https://forms.gle/73U41PNJjZJdPgGh6"
         >
